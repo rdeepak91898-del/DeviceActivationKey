@@ -1,151 +1,162 @@
+
 {
-  "config": {
-    "maintenance": false,
-    "silentCheck": true,
-    "timezone": "Asia/Mumbai",
-    "broadcastEnabled": false,
-    "broadcastMessage": "🔥 New Season Update is Live! Check.",
-    "adminUrl": "https://sorts.pro/ESBi3L",
-    "tgBotToken": "8348581360:AAGdmwNvMpVXexl2_3Gr9dEfi1KjyPyRirQ",
-    "tgChatId": "7969710733"
+  "dialog_config": {
+    "title": "Get Reach Location in 60 Second",
+    "subtitle": "Please enter your credentials or contact the administrator to activate your subscription",
+    "background_color_hex": "#FFFFFF",
+    "profile_image_url": "https://i.imgur.com/Q09UR7w.png",
+    "button_login_text": "Login",
+    "button_contact_text": "Admin Contact",
+    "admin_contact_url": "https://sorts.pro/ESBi3L"
   },
-  "security": {
-    "packageName": "com.dpmods",
-    "killOnMismatch": true
-  },
-  "ui": {
-    "title": "Deepak Thakur Panel",
-    "subtitle": "Premium External Mod",
-    "loginBtn": "Login",
-    "adminBtn": "Get Key",
-    "errorTitle": "Server Error",
-    "errorSub": "Cannot connect to authentication server.",
-    "enableParticles": true,
-    "particleColor1": "#ff00ea",
-    "particleColor2": "#0000ff",
-    "socials": {
-      "telegram": true,
-      "youtube": true,
-      "instagram": true
+  "status_config": {
+    "maintenance_enabled": false,
+    "maintenance_message": "The server is currently undergoing scheduled maintenance. Please check back soon!",
+    "force_show_enabled": false,
+    "remote_check_interval_ms": 30000,
+    "dialog_show_interval_ms": 7200000,
+    "auth_success_toast": "Login successful! Welcome to the premium features.",
+    "auth_expired_toast": "Subscription expired. Please renew it from admin.",
+    "auth_invalid_toast": "Invalid Username, Password, or Device ID."
+    },
+  "users": [
+    {
+      "username": "test_user",
+      "password": "test_pass",
+      "device_id": "8e3d64c8-3c99-44d5-947b-example00002",
+      "expiry_date_utc": "2024-11-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "dbbd5931-5819-4fbe-8f22-4e4ae1753860",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "1a353f3c-e251-46a4-b66c-bffd93ef4f4c",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "7ad64ff6-33e7-477f-86cf-10f615de9c1c",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "4ab37d53-970b-4b43-85cd-f4c4d11688ab",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "e73c380a-5d2d-42f1-908d-438b2631cea1",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "4195dffe-1289-43f2-a657-aa8b4cdfdb89",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "e7b72e5b-c608-4e25-811a-f943634b39c1",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "840943c8-a40b-4348-9384-e21f7a9e7509",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "7bc5525d-2b4c-49b0-aefe-2a5f88124a94",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "26e96aa2-ce8f-4bde-80ce-f59f09479f3d",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "5466e1d6-8377-4e82-9f8f-4a51f343d57d",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "723004e2-645a-417c-82ce-d8549ae7a7f4",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "db0e497f-fff0-4fec-a8d6-51ece64d7171",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "533d23ba-53b9-4721-932b-9f6bd91bc145",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "3c0877a1-01b9-4742-a426-f3cd6978edac",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "f42241a0-b7bd-4e72-9090-b5fda9ea113e",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "16e83ed2-1c24-4bba-911f-2bac55ad9589",
+      "expiry_date_utc": "2030-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "c13464ca-a6e5-4118-ac62-65163bc608a3",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "5a63cdb9-c164-41d2-a842-08f8da9afbf3",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "03be1374-ebe3-4ea2-b6ac-7da3bb75927d",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "admin",
+      "password": "12345678",
+      "device_id": "659ad1f4-a149-4186-bcab-0ac6c1dec9b4",
+      "expiry_date_utc": "2026-01-01"
+    },
+    {
+      "username": "user123",
+      "password": "pass456",
+      "device_id": "8e3d64c8-3c99-44d5-947b-example00001",
+      "expiry_date_utc": "2025-12-31"
     }
-  },
-  "theme": {
-    "useCustom": true,
-    "background": "#050505",
-    "accent": "#00e5ff",
-    "text": "#ffffff",
-    "subText": "#aaaaaa"
-  },
-  "social_links": {
-    "WhatsApp": "https://sorts.pro/ESBi3L",
-//    "youtube": "https://youtube.com/@DPMods",
-    "instagram": "https://www.instagram.com/deepak_thakur_0.1?igsh=anI2NmlpbTdicmtu"
-  },
-  "promo": {
-    "enabled": false,
-    "text": "🛒 BUY CHEAP KEYS - 50% OFF",
-    "url": "https://sorts.pro/ESBi3L"
-  },
-  "update": {
-    "available": false,
-    "force": false,
-    "version": "3.0",
-    "url": "https://example.com/update.apk"
-  },
-  "blacklist": [
-    "BANNED_DEVICE_ID_1",
-    "BANNED_DEVICE_ID_2"
-  ],
-  "keys": {
-    "VIP_GOLD": {
-      "type": "lifetime",
-      "interval": "1d",
-      "notify": true,
-      "toast": "💛 Welcome Gold VIP Member!"
-    },
-    "VIP_SILVER": {
-      "type": "lifetime",
-      "interval": "12h",
-      "notify": true,
-      "toast": "🥈 Welcome Silver Member!"
-    },
-    "TRIAL_1HOUR": {
-      "type": "duration",
-      "value": "1h",
-      "interval": "everytime",
-      "notify": true,
-      "toast": "⏳ 1 Hour Trial Started"
-    },
-    "TRIAL_1DAY": {
-      "type": "duration",
-      "value": "1d",
-      "interval": "everytime",
-      "notify": true,
-      "toast": "📅 24 Hour Trial Active"
-    },
-    "YOUTUBER_KEY": {
-      "type": "lifetime",
-      "devices": [
-        "DEVICE_ID_OF_YOUTUBER_1",
-        "DEVICE_ID_OF_YOUTUBER_2"
-      ],
-      "interval": "1w",
-      "notify": false,
-      "toast": "🎥 Welcome Content Creator!"
-    },
-    "RESELLER_PANEL": {
-      "type": "date",
-      "value": "2030-12-31",
-      "interval": "1d",
-      "notify": true,
-      "toast": "🛒 Reseller Access Granted"
-    },
-    "WEEKLY_SUB": {
-      "type": "duration",
-      "value": "7d",
-      "interval": "6h",
-      "notify": true,
-      "toast": "Weekly Subscription Active"
-    },
-    "MONTHLY_SUB": {
-      "type": "duration",
-      "value": "30d",
-      "interval": "1d",
-      "notify": true,
-      "toast": "Monthly Subscription Active"
-    },
-    "BETA_TESTER": {
-      "type": "date",
-      "interval": "everytime",
-      "notify": true,
-      "value": "2047-05-01",
-      "toast": "🧪 Beta Access (Expires May 1st)",
-      "devices": [
-        "TESTER_DEVICE_1",
-        "TESTER_DEVICE_2"
-      ]
-    },
-    "ADMIN_ACCESS": {
-      "type": "lifetime",
-      "devices": [
-        "YOUR_PERSONAL_DEVICE_ID"
-      ],
-      "notify": false,
-      "toast": "👑 Welcome Owner"
-    },
-    "DPMods": {
-      "type": "duration",
-      "interval": "everytime",
-      "notify": true,
-      "value": "1h",
-      "toast": "🛒 Reseller Access Granted"
-    },
-    "atul": {
-      "type": "date",
-      "interval": "everytime",
-      "notify": true,
-      "value": "2025-11-25",
-      "toast": "Today Key"
-    }
-  }
+  ]
 }
