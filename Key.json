@@ -21,10 +21,10 @@
     },
   "users": [
     {
-      "username": "test_user",
-      "password": "test_pass",
-      "device_id": "8e3d64c8-3c99-44d5-947b-example00002",
-      "expiry_date_utc": "2024-11-01"
+      "username": "Deepak",
+      "password": "Deepak",
+      "device_id": "6504f178-5875-44c3-a2f8-f3fb60cf9cc2",
+      "expiry_date_utc": "2025-12-25"
     },
     {
       "username": "admin",
